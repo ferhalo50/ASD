@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prosolar Ingeniería</title>
+
+    <link rel="icon" href="logotipo.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+/>
+
+</head>
+<body>
+    <nav class="navbar">
+
+    <div class="nav-logo">
+        PROSOLAR
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">
+    ☰
+</div>
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="#inicio">Inicio</a>
+        </li>
+
+        <li>
+            <a href="#servicios">Servicios</a>
+        </li>
+
+        <li>
+            <a href="#promocion">Promociones</a>
+        </li>
+
+        <li>
+            <a href="#galeria">Galería</a>
+        </li>
+
+        <li>
+            <a href="#contactar">Contacto</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+    <header class="hero" id="inicio">
+
+    <div class="overlay" data-aos="zoom-in">
+
+        <img src="LogoTitulo.png" alt="Logo Prosolar" class="logo">
+
+        <h1>PROSOLAR Ingeniería</h1>
+
+        <p>
+            Expertos en instalación y mantenimiento
+            de paneles solares en Baja California
+        </p>
+
+        <button id="mostrarContacto">
+            Contáctanos
+        </button>
+
+        <div id="contacto" class="contacto">
+
+    <h2>Información de Contacto</h2>
+
+    <p>
+        📧 Correo: <a href="mailto:prosolar.ing@gmail.com" class="link-red">prosolar.ing@gmail.com</a>
+    </p>
+
+    <p>
+        📱 WhatsApp: <a href="https://wa.me/526641756806" target="_blank" class="link-red">664 175 6806</a>
+    </p>
+
+    <p>
+        🌐 Facebook: <a href="https://www.facebook.com/share/1CtyKyYS9x/" target="_blank" class="link-red">Prosolar Ingeniería</a>
+    </p>
+
+    </div>
+
+    </header>
+
+    <!-- SERVICIOS -->
+
+    <section class="servicios" id="servicios">
+
+    <h2>Nuestros Servicios</h2>
+
+    <div class="contenedor-servicios">
+
+        <div class="tarjeta" data-aos="fade-up">
+
+            <h3>☀️ Instalación</h3>
+
+            <p>
+                Instalación profesional de paneles solares
+                para hogares y negocios.
+            </p>
+
+        </div>
+
+        <div class="tarjeta">
+
+            <h3>🔧 Mantenimiento</h3>
+
+            <p>
+                Mantenimiento preventivo y correctivo
+                para sistemas solares.
+            </p>
+
+        </div>
+
+        <div class="tarjeta">
+
+            <h3>⚡ Trámite CFE</h3>
+
+            <p>
+                Gestión y trámites ante CFE
+                para conexión y contratos.
+            </p>
+
+        </div>
+
+        <div class="tarjeta">
+
+            <h3>🏠 Sistemas Residenciales</h3>
+
+            <p>
+                Soluciones solares para hogares
+                con alta eficiencia energética.
+            </p>
+
+        </div>
+
+        <div class="tarjeta">
+
+            <h3>🏢 Sistemas Comerciales</h3>
+
+            <p>
+                Sistemas de ahorro energético
+                para empresas y comercios.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- PROMOCIÓN -->
+
+    <section class="promocion" id="promocion">
+
+    <h2>Promoción del Mes</h2>
+
+    <div class="promo-box" data-aos="flip-left">
+
+        <h3>
+            4 Paneles Bifaciales de 620W
+        </h3>
+
+        <p class="precio">
+            Desde $1699 DLLS
+        </p>
+
+        <p class="msi">
+            3, 6, 9 y 12 MSI disponibles
+        </p>
+
+        <ul>
+
+            <li>✅ Instalación incluida</li>
+
+            <li>✅ Trámite CFE</li>
+
+            <li>✅ 25 años de garantía</li>
+
+            <li>✅ Equipos de alta eficiencia</li>
+
+        </ul>
+
+        <button class="promo-btn" id="calcularBtn">
+            Calcular Ahorro
+        </button>
+
+        <!-- CALCULADORA -->
+
+        <div id="calculadora" class="calculadora">
+
+    <h3>Calcula tu ahorro estimado</h3>
+
+    <input
+        type="number"
+        id="recibo"
+        placeholder="¿Cuánto pagas de luz al mes?"
+    >
+
+    <button id="calcularAhorro">
+        Calcular
+    </button>
+
+    <p id="resultado"></p>
+
+    <small class="nota">
+    *El ahorro puede variar dependiendo del consumo,
+    tarifa eléctrica y condiciones de instalación.
+    </small>
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <!-- BENEFICIOS -->
+
+    <section class="beneficios">
+
+    <h2>¿Por qué elegirnos?</h2>
+
+    <div class="contenedor-beneficios">
+
+        <div class="beneficio" data-aos="fade-right">
+
+            <h3>⚡ Alta Eficiencia</h3>
+
+            <p>
+                Trabajamos con equipos solares
+                de alto rendimiento energético.
+            </p>
+
+        </div>
+
+        <div class="beneficio">
+
+            <h3>🛠️ Instalación Profesional</h3>
+
+            <p>
+                Técnicos capacitados para instalaciones
+                seguras y eficientes.
+            </p>
+
+        </div>
+
+        <div class="beneficio">
+
+            <h3>🔒 Garantía</h3>
+
+            <p>
+                Garantía en equipos e instalación
+                para mayor tranquilidad.
+            </p>
+
+        </div>
+
+        <div class="beneficio">
+
+            <h3>📍 Atención Local</h3>
+
+            <p>
+                Servicio especializado en Baja California
+                y atención personalizada.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- GALERIA -->
+    <section class="galeria" id="galeria">
+
+    <h2>Nuestras Instalaciones</h2>
+
+    <div class="contenedor-galeria">
+
+        <img src="img/foto1.jpeg"
+             data-aos="zoom-in"
+             onclick="abrirImagen(this.src)">
+
+        <img src="img/foto2.jpeg" data-aos="zoom-in" onclick="abrirImagen(this.src)">
+
+        <img src="img/foto3.jpeg" data-aos="zoom-in" onclick="abrirImagen(this.src)">
+
+        <img src="img/foto4.jpeg" data-aos="zoom-in" onclick="abrirImagen(this.src)">
+
+        <img src="img/foto5.jpeg" data-aos="zoom-in" onclick="abrirImagen(this.src)">
+
+        <img src="img/foto6.jpeg" data-aos="zoom-in" onclick="abrirImagen(this.src)">
+
+        <img src="img/foto7.jpeg" data-aos="zoom-in" onclick="abrirImagen(this.src)">
+
+        <img src="img/foto8.jpeg" data-aos="zoom-in" onclick="abrirImagen(this.src)">
+
+        <img src="img/foto9.jpeg" data-aos="zoom-in" onclick="abrirImagen(this.src)">
+
+        <img src="img/foto10.jpeg" data-aos="zoom-in" onclick="abrirImagen(this.src)">
+
+        <img src="img/foto11.jpeg" data-aos="zoom-in" onclick="abrirImagen(this.src)">
+
+        <img src="img/foto12.jpeg" data-aos="zoom-in" onclick="abrirImagen(this.src)">
+
+    </div>
+
+</section>
+
+<!-- IMAGEN EXPANDIDA -->
+
+<div id="visor" class="visor" onclick="cerrarImagen()">
+
+    <span class="cerrar">
+        ✖
+    </span>
+
+    <img
+        id="imagenExpandida"
+        onclick="event.stopPropagation()"
+    >
+
+</div>
+
+<!-- FOOTER -->
+ <footer class="footer" id="contactar">
+
+    <div class="footer-contenido">
+
+        <img src="logosinfondo.png" alt="Logo Prosolar" class="footer-logo">
+
+        <h3>PROSOLAR Ingeniería</h3>
+
+        <p>
+            Expertos en energía solar y soluciones
+            de ahorro energético en Baja California.
+        </p>
+
+        <div class="footer-contacto">
+
+            <p>📱 WhatsApp: <a href="https://wa.me/526641756806" target="_blank" class="link-red">664 175 6806</a></p>
+
+            <p>📧 Correo: <a href="mailto:prosolar.ing@gmail.com" class="link-red">prosolar.ing@gmail.com</a></p>
+
+            <p>🌐 Facebook: <a href="https://www.facebook.com/share/1CtyKyYS9x/" target="_blank" class="link-red">Prosolar Ingeniería</a></p>
+
+            <p>📍 Baja California, México</p>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 PROSOLAR Ingeniería — Todos los derechos reservados
+        </p>
+
+    </div>
+
+</footer>
+
+    <a
+    href="https://wa.me/526641756806?text=Hola,%20quiero%20información%20sobre%20paneles%20solares%20y%20cotización"
+    class="whatsapp"
+    target="_blank"
+>
+
+    <img
+        src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+        alt="WhatsApp"
+    >
+
+</a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
