@@ -602,6 +602,8 @@ html{
 
 .nav-links a{
 
+    font-size: 20px;
+
     color: white;
 
     text-decoration: none;
@@ -662,7 +664,11 @@ html{
 
 .navbar{
 
-    flex-direction: column;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    align-items: center;
 
     padding: 15px 20px;
 }
@@ -673,15 +679,23 @@ html{
 
     flex-direction: column;
 
-    gap: 15px;
+    gap: 25px;
+
+    position: absolute;
+
+    top: 80px;
+
+    left: 0;
 
     width: 100%;
 
+    padding: 40px 0;
+
+    background-color: rgba(0,0,0,0.75);
+
+    backdrop-filter: blur(10px);
+
     text-align: center;
-
-    margin-top: 20px;
-
-    padding: 0;
 }
 
 .nav-links.active{
