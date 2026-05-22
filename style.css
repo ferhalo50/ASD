@@ -2,12 +2,13 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
     color: white;
+    overflow-x: hidden;
 }
 
 .hero{
     height: 100vh;
 
-    background-image: url("fondo-solar.png");
+    background-image: url("fondo-seguridad.png");
     background-size: cover;
     background-position: center;
 
@@ -30,7 +31,7 @@ body{
 }
 
 .logo{
-    width: 220px;
+    width: 320px;
     margin-bottom: 20px;
 }
 
@@ -87,7 +88,7 @@ button:hover{
 
     margin-top: 0;
 
-    color: #90ee90;
+    color: #2ea2f0;
 }
 
 .servicios{
@@ -105,7 +106,7 @@ button:hover{
 
     margin-bottom: 50px;
 
-    color: #ffd700;
+    color: #267fc9;
 }
 
 .contenedor-servicios{
@@ -157,157 +158,6 @@ button:hover{
     line-height: 1.6;
 }
 
-.promocion{
-
-    background: linear-gradient(
-        135deg,
-        #1e293b,
-        #0f172a
-    );
-
-    padding: 80px 20px;
-
-    text-align: center;
-}
-
-.promocion h2{
-
-    font-size: 42px;
-
-    color: #ffd700;
-
-    margin-bottom: 40px;
-}
-
-.promo-box{
-
-    background-color: rgba(255,255,255,0.08);
-
-    max-width: 700px;
-
-    margin: auto;
-
-    padding: 40px;
-
-    border-radius: 25px;
-
-    backdrop-filter: blur(8px);
-
-    box-shadow: 0 0 25px rgba(0,0,0,0.3);
-}
-
-.promo-box h3{
-
-    font-size: 34px;
-
-    margin-bottom: 20px;
-
-    color: #90ee90;
-}
-
-.precio{
-
-    font-size: 55px;
-
-    font-weight: bold;
-
-    color: #ffd700;
-
-    margin: 20px 0;
-}
-
-.msi{
-
-    font-size: 24px;
-
-    margin-bottom: 30px;
-}
-
-.promo-box ul{
-
-    list-style: none;
-
-    padding: 0;
-
-    margin-bottom: 30px;
-}
-
-.promo-box li{
-
-    font-size: 20px;
-
-    margin: 15px 0;
-}
-
-.promo-btn{
-
-    background-color: #25D366;
-
-    color: white;
-
-    border: none;
-
-    padding: 15px 35px;
-
-    border-radius: 12px;
-
-    font-size: 18px;
-
-    cursor: pointer;
-
-    transition: 0.3s;
-}
-
-.promo-btn:hover{
-
-    background-color: #1da851;
-
-    transform: scale(1.05);
-}
-
-.calculadora{
-
-    display: none;
-
-    margin-top: 30px;
-
-    background-color: rgba(255,255,255,0.08);
-
-    padding: 25px;
-
-    border-radius: 20px;
-}
-
-.calculadora input{
-
-    width: 80%;
-
-    padding: 15px;
-
-    border: none;
-
-    border-radius: 10px;
-
-    margin-top: 15px;
-
-    font-size: 18px;
-}
-
-.calculadora button{
-
-    margin-top: 20px;
-}
-
-#resultado{
-
-    margin-top: 20px;
-
-    font-size: 22px;
-
-    color: #90ee90;
-
-    font-weight: bold;
-}
 
 .beneficios{
 
@@ -322,7 +172,7 @@ button:hover{
 
     font-size: 42px;
 
-    color: #ffd700;
+    color: #267fc9;
 
     margin-bottom: 50px;
 }
@@ -385,114 +235,6 @@ button:hover{
     color: #d1d5db;
 }
 
-.galeria{
-
-    background-color: #0f172a;
-
-    padding: 80px 20px;
-
-    text-align: center;
-}
-
-.galeria h2{
-
-    font-size: 42px;
-
-    color: #ffd700;
-
-    margin-bottom: 50px;
-}
-
-.contenedor-galeria{
-
-    display: grid;
-
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-
-    gap: 20px;
-
-    max-width: 1400px;
-
-    margin: auto;
-}
-
-.contenedor-galeria img{
-
-    width: 100%;
-
-    height: 250px;
-
-    object-fit: cover;
-
-    border-radius: 15px;
-
-    cursor: pointer;
-
-    transition:
-        transform 0.4s ease,
-        box-shadow 0.4s ease;
-
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
-}
-
-.contenedor-galeria img:hover{
-
-    transform: scale(1.08);
-
-    box-shadow: 0 0 30px rgba(255,215,0,0.5);
-}
-
-
-/* VISOR */
-
-.visor{
-
-    display: none;
-
-    position: fixed;
-
-    top: 0;
-
-    left: 0;
-
-    width: 100%;
-
-    height: 100%;
-
-    background-color: rgba(0,0,0,0.9);
-
-    justify-content: center;
-
-    align-items: center;
-
-    z-index: 999;
-}
-
-.visor img{
-
-    max-width: 90%;
-
-    max-height: 90%;
-
-    border-radius: 20px;
-}
-
-.cerrar{
-
-    position: absolute;
-
-    top: 20px;
-
-    right: 30px;
-
-    font-size: 45px;
-
-    color: white;
-
-    cursor: pointer;
-
-    z-index: 1001;
-}
 
 .footer{
 
@@ -588,7 +330,7 @@ html{
 
     font-weight: bold;
 
-    color: #ffd700;
+    color: #2d77bd;
 }
 
 .nav-links{
@@ -889,7 +631,7 @@ html{
 
 .footer-columna h4{
 
-    color: #ffd700;
+    color: #267fc9;
 
     margin-bottom: 20px;
 
@@ -930,4 +672,99 @@ html{
     color: #9ca3af;
 
     font-size: 14px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.cyber-title{
+    font-family: 'Share Tech Mono', monospace;
+
+    font-size: 3.5rem;
+    font-weight: 700;
+
+    color: #00bfff;
+
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    text-shadow:
+        0 0 5px rgba(0,191,255,.8),
+        0 0 15px rgba(0,191,255,.5);
+
+    margin: 0;
+
+    position: relative;
+}
+
+.hero-text{
+    max-width: 800px;
+    text-wrap: pretty;
+}
+
+.hero-text p{
+    font-size: 1.15rem;
+    line-height: 1.9;
+
+    color: rgba(255,255,255,0.88);
+
+    font-family: 'Inter', sans-serif;
+
+    letter-spacing: 0.3px;
+
+    text-align: justify;
+
+    max-width: 800px;
+
+    border-left: 3px solid #00bfff;
+    padding-left: 20px;
+}
+
+.tarjeta ul{
+    padding-left: 20px;
+    text-align: left;
+}
+
+.tarjeta li{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.servicio-lista{
+    list-style: none;
+
+    padding: 0;
+
+    margin-top: 20px;
+
+    text-align: left;
+}
+
+.servicio-lista li{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 14px;
+
+    padding: 12px 15px;
+
+    border-radius: 12px;
+
+    background: rgba(255,255,255,0.05);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    transition: 0.3s;
+
+    font-size: 15px;
+}
+
+.servicio-lista li:hover{
+
+    background: rgba(0,191,255,0.12);
+
+    transform: translateX(5px);
 }
