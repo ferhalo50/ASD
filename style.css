@@ -624,6 +624,15 @@ html{
     text-align: center;
 }
 
+.footer-texto{
+
+        width: 88%;
+
+        font-size: 16px;
+
+        line-height: 1.9;
+    }
+
 }
 
 /* WHATSAPP */
@@ -700,17 +709,27 @@ html{
 
 .footer-texto{
 
-    max-width: 700px;
+    font-family: 'Oxanium', sans-serif;
 
-    margin: auto;
+    width: min(90%, 700px);
 
-    margin-bottom: 60px;
+    margin: 0 auto 60px auto;
 
-    color: #d1d5db;
-
-    line-height: 1.7;
+    padding: 25px 20px;
 
     font-size: 18px;
+
+    line-height: 2;
+
+    letter-spacing: 0.4px;
+
+    color: rgba(255,255,255,0.84);
+
+    text-align: justify;
+
+    text-justify: inter-word;
+
+    text-wrap: pretty;
 }
 
 /* GRID */
