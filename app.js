@@ -16,6 +16,24 @@ boton.addEventListener("click", function(){
 
 });
 
+function abrirImagen(src){
+
+    const visor = document.getElementById("visor");
+
+    const imagen = document.getElementById("imagenExpandida");
+
+    visor.style.display = "flex";
+
+    imagen.src = src;
+}
+
+
+function cerrarImagen(){
+
+    document.getElementById("visor").style.display = "none";
+}
+
+
 // MENU RESPONSIVE
 
 const menuToggle = document.getElementById("menuToggle");

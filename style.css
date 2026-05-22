@@ -327,19 +327,46 @@ button:hover{
 
 .cerrar{
 
-    position: absolute;
+    position: fixed;
 
-    top: 20px;
+    top: 100px;
 
-    right: 30px;
+    right: 25px;
 
-    font-size: 45px;
+    width: 60px;
+
+    height: 60px;
+
+    background-color: rgba(0,0,0,0.5);
+
+    backdrop-filter: blur(5px);
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 38px;
 
     color: white;
 
     cursor: pointer;
 
-    z-index: 1001;
+    z-index: 5000;
+
+    transition: 0.3s;
+}
+
+.cerrar:hover{
+
+    color: #ffd700;
+
+    transform: scale(1.1);
+
+    background-color: rgba(0,0,0,0.7);
 }
 
 .footer{
