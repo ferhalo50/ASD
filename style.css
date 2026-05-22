@@ -234,7 +234,113 @@ button:hover{
 
     color: #d1d5db;
 }
+.galeria{
 
+    background-color: #0f172a;
+
+    padding: 80px 20px;
+
+    text-align: center;
+}
+
+.galeria h2{
+
+    font-size: 42px;
+
+    color: #ffd700;
+
+    margin-bottom: 50px;
+}
+
+.contenedor-galeria{
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 20px;
+
+    max-width: 1400px;
+
+    margin: auto;
+}
+
+.contenedor-galeria img{
+
+    width: 100%;
+
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.4s ease,
+        box-shadow 0.4s ease;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.contenedor-galeria img:hover{
+
+    transform: scale(1.08);
+
+    box-shadow: 0 0 30px rgba(255,215,0,0.5);
+}
+
+/* VISOR */
+
+.visor{
+
+    display: none;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-color: rgba(0,0,0,0.9);
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 999;
+}
+
+.visor img{
+
+    max-width: 90%;
+
+    max-height: 90%;
+
+    border-radius: 20px;
+}
+
+.cerrar{
+
+    position: absolute;
+
+    top: 20px;
+
+    right: 30px;
+
+    font-size: 45px;
+
+    color: white;
+
+    cursor: pointer;
+
+    z-index: 1001;
+}
 
 .footer{
 
